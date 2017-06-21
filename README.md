@@ -4,7 +4,7 @@ This theme is inspired by [VSCode default dark theme, monokai theme](https://git
 
 [Repository](https://github.com/nonylene/vscode-dark-molokai-theme)
 
-[ScreenShot](doc/screenshot.png)
+![ScreenShot](doc/screenshot.png)
 
 ## Install
 
