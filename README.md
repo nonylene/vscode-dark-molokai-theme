@@ -2,6 +2,8 @@
 
 This theme is inspired by [VSCode default dark theme, monokai theme](https://github.com/Microsoft/vscode) and [Vim Molokai theme](https://github.com/tomasr/molokai) .
 
+[Repository](https://github.com/nonylene/vscode-dark-molokai-theme)
+
 ## Install
 
 Get vsix binary package from [Releases](https://github.com/nonylene/vscode-dark-molokai-theme/releases), and
