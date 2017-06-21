@@ -1,4 +1,4 @@
-## (Visual Studio Code)[https://github.com/Microsoft/vscode]
+## [Visual Studio Code](https://github.com/Microsoft/vscode)
 
 MIT License
 
@@ -24,7 +24,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## (Molokai)[https://github.com/tomasr/molokai]
+## [Molokai](https://github.com/tomasr/molokai)
 
 monokai theme copyright Wimer Hazenberg.
 
