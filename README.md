@@ -8,8 +8,12 @@ This theme is inspired by [VSCode default dark theme, monokai theme](https://git
 
 ## Install
 
-Get vsix binary package from [Releases](https://github.com/nonylene/vscode-dark-molokai-theme/releases), and
+Please see [Marketplace](https://marketplace.visualstudio.com/items?itemName=nonylene.dark-molokai-theme).
 
-```shell
-$ code --install-exteision dark-molokai-theme-<version>.vsix
-```
+## Development
+
+### Debug
+
+- Open this project by vscode
+- Press F5 to run extension
+- Change theme to `Dark (Molokai)`
