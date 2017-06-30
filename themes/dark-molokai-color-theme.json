@@ -17,7 +17,7 @@
     // 256 monokai dark, rehash 256
     "editor.lineHighlightBackground": "#303030",
     // molokai theme 
-    // https://github.com/Microsoft/vscode/blob/6eab963/extensions/theme-monokai/themes/monokai-color-theme.json
+    // https://github.com/Microsoft/vscode/blob/8787538/extensions/theme-monokai/themes/monokai-color-theme.json
     "editorSuggestWidget.border": "#75715E",
     "editorHoverWidget.border": "#75715E",
     "editorSuggestWidget.highlightForeground": "#f8f8f2", // not working ????
@@ -104,7 +104,8 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "fontStyle": ""
+        "fontStyle": "",
+        "foreground": "#F8F8F2"
       }
     },
     {
