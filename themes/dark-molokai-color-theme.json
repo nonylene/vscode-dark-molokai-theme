@@ -7,7 +7,7 @@
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
     // monokai dark color theme
-    // https://github.com/tomasr/molokai/blob/db8ce13/colors/molokai.vim
+    // https://github.com/tomasr/molokai/blob/222ed5b/colors/molokai.vim
     "editor.background": "#1B1D1E",
     "editor.foreground": "#F8F8F2",
     "editorSuggestWidget.background": "#1B1D1E",
@@ -77,6 +77,15 @@
       ],
       "settings": {
         "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Reset JavaScript string interpolation expression",
+      "scope": [
+        "meta.template.expression"
+      ],
+      "settings": {
+        "foreground": "#F8F8F2"
       }
     },
     {
