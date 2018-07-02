@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     // Dark base theme
-    // https://github.com/Microsoft/vscode/blob/52212f2/extensions/theme-defaults/themes/dark_defaults.json
+    // https://github.com/Microsoft/vscode/blob/0100518/extensions/theme-defaults/themes/dark_defaults.json
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
     // monokai dark color theme
@@ -17,15 +17,20 @@
     // 256 monokai dark, rehash 256
     "editor.lineHighlightBackground": "#303030",
     // molokai theme 
-    // https://github.com/Microsoft/vscode/blob/222ed5b/extensions/theme-monokai/themes/monokai-color-theme.json
+    // https://github.com/Microsoft/vscode/blob/3b02dc2/extensions/theme-monokai/themes/monokai-color-theme.json
     "editorSuggestWidget.border": "#75715E",
     "editorHoverWidget.border": "#75715E",
     "editorSuggestWidget.highlightForeground": "#f8f8f2", // not working ????
     "list.highlightForeground": "#f8f8f2",
+    "editor.selectionHighlightBackground": "#575b6180",
+    "editor.wordHighlightBackground": "#4a4a7680",
+    "editor.wordHighlightStrongBackground": "#6a6a9680",
     "editorCursor.foreground": "#f8f8f0",
     "editorWhitespace.foreground": "#464741",
     "editorIndentGuide.background": "#464741",
+    "editorIndentGuide.activeBackground": "#767771",
     "editorLineNumber.foreground": "#90908a",
+    "editorLineNumber.activeForeground": "#c2c2bf",
     "editorWidget.background": "#1e1f1c",
     "diffEditor.insertedTextBackground": "#66852880", // middle of #272822 and #a6e22e
     "diffEditor.removedTextBackground": "#90274A80", // middle of #272822 and #f92672
@@ -63,6 +68,16 @@
       }
     },
     {
+      "scope": [
+        "meta.embedded",
+        "source.groovy.embedded"
+      ],
+      "settings": {
+        "background": "#272822",
+        "foreground": "#F8F8F2"
+      }
+    },
+    {
       "name": "String",
       "scope": "string",
       "settings": {
@@ -73,7 +88,7 @@
       "name": "Template Definition",
       "scope": [
         "punctuation.definition.template-expression",
-        "punctuation.section.embedded.coffee"
+        "punctuation.section.embedded"
       ],
       "settings": {
         "foreground": "#F92672"
