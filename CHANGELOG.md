@@ -2,6 +2,9 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.4] - 2018-07-03
+- Merge latest molokai theme
+
 ## [0.0.3] - 2017-06-23
 - Change theme name to `Dark (Molokai)` from `Dark (molokai)`
 - Modify README
