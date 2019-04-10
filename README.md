@@ -17,3 +17,11 @@ Please see [Marketplace](https://marketplace.visualstudio.com/items?itemName=non
 - Open this project by vscode
 - Press F5 to run extension
 - Change theme to `Dark (Molokai)`
+
+### Publish
+
+Doc: <https://code.visualstudio.com/api/working-with-extensions/publishing-extension>
+
+```console
+$ vsce publish
+```
