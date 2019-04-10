@@ -19,9 +19,9 @@
     "editorSuggestWidget.selectedBackground": "#293739",
     "editorHoverWidget.background": "#1B1D1E",
     "editor.selectionBackground": "#403d3d",
-    // 256 monokai dark, rehash 256
+    // 256 molokai dark, rehash 256
     "editor.lineHighlightBackground": "#303030",
-    // molokai theme 
+    // monokai theme
     // https://github.com/Microsoft/vscode/blob/e891e2f/extensions/theme-monokai/themes/monokai-color-theme.json
     "editorSuggestWidget.border": "#75715E",
     "editorHoverWidget.border": "#75715E",
