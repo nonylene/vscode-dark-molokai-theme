@@ -2,6 +2,9 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.0.5] - 2019-04-10
+- Merge latest dark / molokai theme
+
 ## [0.0.4] - 2018-07-03
 - Merge latest molokai theme
 
