@@ -1,6 +1,9 @@
 # Change Log
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
+
+## [0.0.6] - 2019-04-10
+- Merge latest dark theme (`statusBarItem.remoteForeground` and `statusBarItem.remoteForeground` were added)
 
 ## [0.0.5] - 2019-04-10
 - Merge latest dark / molokai theme

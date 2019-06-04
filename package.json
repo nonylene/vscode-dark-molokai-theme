@@ -2,7 +2,7 @@
     "name": "dark-molokai-theme",
     "displayName": "Dark Molokai Theme",
     "description": "Theme inspired by official Dark, Monokai theme and Molokai vim theme.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "nonylene",
     "repository": "https://github.com/nonylene/vscode-dark-molokai-theme",
     "engines": {
