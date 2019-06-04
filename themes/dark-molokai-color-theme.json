@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     // Dark base theme
-    // https://github.com/Microsoft/vscode/blob/e891e2f/extensions/theme-defaults/themes/dark_defaults.json
+    // https://github.com/Microsoft/vscode/blob/78378de/extensions/theme-defaults/themes/dark_defaults.json
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
     "input.placeholderForeground": "#A6A6A6",
@@ -11,6 +11,8 @@
     "settings.numberInputBackground": "#292929",
     "menu.background": "#252526",
     "menu.foreground": "#CCCCCC",
+    "statusBarItem.remoteForeground": "#FFF",
+    "statusBarItem.remoteBackground": "#16825D",
     // monokai dark color theme
     // https://github.com/tomasr/molokai/blob/db8ce13/colors/molokai.vim
     "editor.background": "#1B1D1E",
@@ -22,7 +24,7 @@
     // 256 molokai dark, rehash 256
     "editor.lineHighlightBackground": "#303030",
     // monokai theme
-    // https://github.com/Microsoft/vscode/blob/e891e2f/extensions/theme-monokai/themes/monokai-color-theme.json
+    // https://github.com/Microsoft/vscode/blob/78378de/extensions/theme-monokai/themes/monokai-color-theme.json
     "editorSuggestWidget.border": "#75715E",
     "editorHoverWidget.border": "#75715E",
     "editorSuggestWidget.highlightForeground": "#f8f8f2", // not working ????
