@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     // Dark base theme
-    // https://github.com/Microsoft/vscode/blob/78378de/extensions/theme-defaults/themes/dark_defaults.json
+    // https://github.com/Microsoft/vscode/blob/235a571/extensions/theme-defaults/themes/dark_defaults.json
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
     "input.placeholderForeground": "#A6A6A6",
@@ -13,7 +13,7 @@
     "menu.foreground": "#CCCCCC",
     "statusBarItem.remoteForeground": "#FFF",
     "statusBarItem.remoteBackground": "#16825D",
-    // monokai dark color theme
+    // molokai dark color theme
     // https://github.com/tomasr/molokai/blob/db8ce13/colors/molokai.vim
     "editor.background": "#1B1D1E",
     "editor.foreground": "#F8F8F2",
@@ -23,8 +23,9 @@
     "editor.selectionBackground": "#403d3d",
     // 256 molokai dark, rehash 256
     "editor.lineHighlightBackground": "#303030",
+    "minimap.selectionHighlight": "#303030",
     // monokai theme
-    // https://github.com/Microsoft/vscode/blob/78378de/extensions/theme-monokai/themes/monokai-color-theme.json
+    // https://github.com/Microsoft/vscode/blob/235a571/extensions/theme-monokai/themes/monokai-color-theme.json
     "editorSuggestWidget.border": "#75715E",
     "editorHoverWidget.border": "#75715E",
     "editorSuggestWidget.highlightForeground": "#f8f8f2", // not working ????
@@ -39,8 +40,8 @@
     "editorLineNumber.foreground": "#90908a",
     "editorLineNumber.activeForeground": "#c2c2bf",
     "editorWidget.background": "#1e1f1c",
-    "diffEditor.insertedTextBackground": "#66852880", // middle of #272822 and #a6e22e
-    "diffEditor.removedTextBackground": "#90274A80", // middle of #272822 and #f92672
+    "diffEditor.insertedTextBackground": "#4b661680", // middle of #272822 and #a6e22e
+    "diffEditor.removedTextBackground": "#90274A70", // middle of #272822 and #f92672
     "terminal.ansiBlack": "#333333",
     "terminal.ansiRed": "#C4265E", // the bright color with ~75% transparent on the background
     "terminal.ansiGreen": "#86B42B",
@@ -70,7 +71,6 @@
     // molokai!!
     {
       "settings": {
-        "background": "#272822",
         "foreground": "#F8F8F2"
       }
     },
@@ -80,7 +80,6 @@
         "source.groovy.embedded"
       ],
       "settings": {
-        "background": "#272822",
         "foreground": "#F8F8F2"
       }
     },
@@ -164,7 +163,7 @@
     },
     {
       "name": "Class name",
-      "scope": "entity.name.type, entity.name.class",
+      "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
       "settings": {
         "fontStyle": "underline",
         "foreground": "#A6E22E"
@@ -245,7 +244,6 @@
       "name": "Invalid",
       "scope": "invalid",
       "settings": {
-        "background": "#F92672",
         "fontStyle": "",
         "foreground": "#F8F8F0"
       }
@@ -254,7 +252,6 @@
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "background": "#AE81FF",
         "foreground": "#F8F8F0"
       }
     },
@@ -345,7 +342,66 @@
       "name": "Markup Setext Header",
       "scope": "markup.heading.setext",
       "settings": {
-        "fontStyle": "",
+        "foreground": "#A6E22E",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup Headings",
+      "scope": "markup.heading.markdown",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Quote",
+      "scope": "markup.quote.markdown",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#75715E"
+      }
+    },
+    {
+      "name": "Markdown Bold",
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Link Title/Description",
+      "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
+      "settings": {
+        "foreground": "#AE81FF"
+      }
+    },
+    {
+      "name": "Markdown Underline Link/Image",
+      "scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
+      "settings": {
+        "foreground": "#E6DB74"
+      }
+    },
+    {
+      "name": "Markdown Emphasis",
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown Punctuation Definition Link",
+      "scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown",
+      "settings": {
+        "foreground": "#f8f8f2"
+      }
+    },
+    {
+      "name": "Markdown List Punctuation",
+      "scope": [
+        "punctuation.definition.list.begin.markdown"
+      ],
+      "settings": {
         "foreground": "#A6E22E"
       }
     },
