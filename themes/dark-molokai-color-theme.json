@@ -2,6 +2,9 @@
   "name": "Dark (molokai)",
   "type": "dark",
   "colors": {
+    // Set `selection.background` to the defaut selection background color (on macOS) explicitly,
+    // otherwise `editor.selectionbackground` will be used on some input components.
+    "selection.background": "#B3D7FF",
     // Dark base theme
     // https://github.com/Microsoft/vscode/blob/235a571/extensions/theme-defaults/themes/dark_defaults.json
     "activityBarBadge.background": "#007acc",
@@ -57,7 +60,7 @@
     "terminal.ansiBrightBlue": "#819aff", // hue shifted #AE81FF
     "terminal.ansiBrightMagenta": "#AE81FF",
     "terminal.ansiBrightCyan": "#66D9EF",
-    "terminal.ansiBrightWhite": "#f8f8f2"
+    "terminal.ansiBrightWhite": "#f8f8f2",
   },
   "tokenColors": [
     // monokai!
