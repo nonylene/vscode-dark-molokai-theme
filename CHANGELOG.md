@@ -2,6 +2,9 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.1] - 2020-01-23
+- Set `selection.background` to the defaut selection background color explicitly (#2)
+
 ## [1.0.0] - 2019-12-11
 - Merge latest monokai theme (Improvements for Markdown files etc.)
 
