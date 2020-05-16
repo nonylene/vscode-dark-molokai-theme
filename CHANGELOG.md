@@ -2,6 +2,11 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.2] - 2020-05-17
+- Opt-in the semantic highlighting
+  - If you don't like it, follow [this link](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview) to disable it.
+- Merge latest dark theme (`sideBarSectionHeader.background` and `sideBarSectionHeader.border` were added)
+
 ## [1.0.1] - 2020-01-23
 - Set `selection.background` to the defaut selection background color explicitly (#2)
 
