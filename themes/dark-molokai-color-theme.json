@@ -16,6 +16,8 @@
     "menu.foreground": "#CCCCCC",
     "statusBarItem.remoteForeground": "#FFF",
     "statusBarItem.remoteBackground": "#16825D",
+    "sideBarSectionHeader.background": "#0000",
+    "sideBarSectionHeader.border": "#ccc3",
     // molokai dark color theme
     // https://github.com/tomasr/molokai/blob/db8ce13/colors/molokai.vim
     "editor.background": "#1B1D1E",
@@ -439,5 +441,6 @@
         "foreground": "#FD971F"
       }
     }
-  ]
+  ],
+  "semanticHighlighting": true,
 }
