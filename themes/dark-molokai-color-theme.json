@@ -6,7 +6,7 @@
     // otherwise `editor.selectionbackground` will be used on some input components.
     "selection.background": "#B3D7FF",
     // Dark base theme
-    // https://github.com/Microsoft/vscode/blob/235a571/extensions/theme-defaults/themes/dark_defaults.json
+    // https://github.com/Microsoft/vscode/blob/a1ed386162d6a5741ed440c6b8998ca5728a89f8/extensions/theme-defaults/themes/dark_defaults.json
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
     "input.placeholderForeground": "#A6A6A6",
@@ -30,7 +30,7 @@
     "editor.lineHighlightBackground": "#303030",
     "minimap.selectionHighlight": "#303030",
     // monokai theme
-    // https://github.com/Microsoft/vscode/blob/235a571/extensions/theme-monokai/themes/monokai-color-theme.json
+    // https://github.com/Microsoft/vscode/blob/a1ed386162d6a5741ed440c6b8998ca5728a89f8/extensions/theme-monokai/themes/monokai-color-theme.json
     "editorSuggestWidget.border": "#75715E",
     "editorHoverWidget.border": "#75715E",
     "editorSuggestWidget.highlightForeground": "#f8f8f2", // not working ????

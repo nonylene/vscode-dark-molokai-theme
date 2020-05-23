@@ -22,6 +22,7 @@ Please see [Marketplace](https://marketplace.visualstudio.com/items?itemName=non
 
 Doc: <https://code.visualstudio.com/api/working-with-extensions/publishing-extension>
 
+- Update commit hashes on comments
 - Increment version on `package.json`
 - Add changelog to `CHANGELOG.md`
 - Publish with `vsce` command
