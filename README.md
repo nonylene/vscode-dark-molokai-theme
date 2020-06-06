@@ -26,6 +26,7 @@ Doc: <https://code.visualstudio.com/api/working-with-extensions/publishing-exten
 - Increment version on `package.json`
 - Add changelog to `CHANGELOG.md`
 - Publish with `vsce` command
+- `git tag` with the new release
 
 ```console
 $ vsce publish
