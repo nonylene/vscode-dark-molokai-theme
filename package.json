@@ -6,7 +6,7 @@
     "publisher": "nonylene",
     "repository": "https://github.com/nonylene/vscode-dark-molokai-theme",
     "engines": {
-        "vscode": "^1.33.0"
+        "vscode": "^1.56.0"
     },
     "categories": [
         "Themes"
