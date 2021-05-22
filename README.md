@@ -14,20 +14,23 @@ Please see [Marketplace](https://marketplace.visualstudio.com/items?itemName=non
 
 ### Debug
 
-- Open this project by vscode
+- Open this project in vscode
 - Press F5 to run extension
 - Change theme to `Dark (Molokai)`
+
+Tip: `Add Folder to Workspace...` to debug with existing projects
 
 ### Publish
 
 Doc: <https://code.visualstudio.com/api/working-with-extensions/publishing-extension>
 
-- Update commit hashes on comments
+- Update commit hashes that points origin sources in comments
 - Increment version on `package.json`
 - Add changelog to `CHANGELOG.md`
 - Publish with `vsce` command
-- `git tag` with the new release
 
-```console
-$ vsce publish
-```
+  ```console
+  $ vsce publish
+  ```
+
+- `git tag` with the new release
