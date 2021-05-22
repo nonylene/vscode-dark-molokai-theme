@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.3] - 2021-05-22
+- Merge latest origin themes
+- Align selection background color to Windows. Original color picked from macOS is too blight for Windows.
+
 ## [1.0.2] - 2020-05-17
 - Opt-in the semantic highlighting
   - If you don't like it, follow [this link](https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview) to disable it.
