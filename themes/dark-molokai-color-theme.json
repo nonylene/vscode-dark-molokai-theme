@@ -4,7 +4,8 @@
   "colors": {
     // Set `selection.background` to the defaut selection background color (on macOS) explicitly,
     // otherwise `editor.selectionbackground` will be used on some input components.
-    "selection.background": "#B3D7FF",
+    // "selection.background": "#B3D7FF", // macOS defualt color (Too blight for Windows!)
+    "selection.background": "#0078d7", // Windows default color
     // Unfortunately, another some of them like SCM input box still uses the editor color regardless of this setting...
     // Issue: https://github.com/nonylene/vscode-dark-molokai-theme/issues/2
     //
