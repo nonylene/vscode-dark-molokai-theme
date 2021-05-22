@@ -5,17 +5,20 @@
     // Set `selection.background` to the defaut selection background color (on macOS) explicitly,
     // otherwise `editor.selectionbackground` will be used on some input components.
     "selection.background": "#B3D7FF",
+    // Unfortunately, another some of them like SCM input box still uses the editor color regardless of this setting...
+    // Issue: https://github.com/nonylene/vscode-dark-molokai-theme/issues/2
+    //
     // Dark base theme
-    // https://github.com/microsoft/vscode/blob/b60478452fa40ad40471382165ceef5004129003/extensions/theme-defaults/themes/dark_vs.json
+    // https://github.com/microsoft/vscode/blob/655fe7546f223493324225836e734b63ce24b38b/extensions/theme-defaults/themes/dark_vs.json
+    "list.dropBackground": "#383B3D",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
     "input.placeholderForeground": "#A6A6A6",
-    "settings.textInputBackground": "#292929",
-    "settings.numberInputBackground": "#292929",
     "menu.background": "#252526",
     "menu.foreground": "#CCCCCC",
     "statusBarItem.remoteForeground": "#FFF",
     "statusBarItem.remoteBackground": "#16825D",
+    "ports.iconRunningProcessForeground": "#369432",
     "sideBarSectionHeader.background": "#0000",
     "sideBarSectionHeader.border": "#ccc3",
     "tab.lastPinnedBorder": "#ccc3",
@@ -31,23 +34,22 @@
     "editor.lineHighlightBackground": "#303030",
     "minimap.selectionHighlight": "#303030",
     // monokai theme
-    // https://github.com/Microsoft/vscode/blob/a1ed386162d6a5741ed440c6b8998ca5728a89f8/extensions/theme-monokai/themes/monokai-color-theme.json
-    "editorSuggestWidget.border": "#75715E",
-    "editorHoverWidget.border": "#75715E",
-    "editorSuggestWidget.highlightForeground": "#f8f8f2", // not working ????
+    // https://github.com/Microsoft/vscode/blob/1e810cafb7461ca077c705499408ca838524c014/extensions/theme-monokai/themes/monokai-color-theme.json
     "list.highlightForeground": "#f8f8f2",
     "editor.selectionHighlightBackground": "#575b6180",
     "editor.wordHighlightBackground": "#4a4a7680",
     "editor.wordHighlightStrongBackground": "#6a6a9680",
+    "editorLineNumber.activeForeground": "#c2c2bf",
     "editorCursor.foreground": "#f8f8f0",
     "editorWhitespace.foreground": "#464741",
     "editorIndentGuide.background": "#464741",
     "editorIndentGuide.activeBackground": "#767771",
     "editorLineNumber.foreground": "#90908a",
-    "editorLineNumber.activeForeground": "#c2c2bf",
     "editorWidget.background": "#1e1f1c",
     "diffEditor.insertedTextBackground": "#4b661680", // middle of #272822 and #a6e22e
     "diffEditor.removedTextBackground": "#90274A70", // middle of #272822 and #f92672
+    "editorHoverWidget.border": "#75715E",
+    "editorSuggestWidget.border": "#75715E",
     "terminal.ansiBlack": "#333333",
     "terminal.ansiRed": "#C4265E", // the bright color with ~75% transparent on the background
     "terminal.ansiGreen": "#86B42B",
@@ -251,14 +253,14 @@
       "scope": "invalid",
       "settings": {
         "fontStyle": "",
-        "foreground": "#F8F8F0"
+        "foreground": "#F44747"
       }
     },
     {
       "name": "Invalid deprecated",
       "scope": "invalid.deprecated",
       "settings": {
-        "foreground": "#F8F8F0"
+        "foreground": "#F44747"
       }
     },
     {
