@@ -2,6 +2,9 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.4] - 2022-05-27
+- Merge latest origin themes
+
 ## [1.0.3] - 2021-05-22
 - Merge latest origin themes
 - Align selection background color to Windows. Original color picked from macOS is too blight for Windows.
