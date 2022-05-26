@@ -30,7 +30,8 @@ Doc: <https://code.visualstudio.com/api/working-with-extensions/publishing-exten
 - Publish with `vsce` command
 
   ```console
-  $ vsce publish
+  $ npm install
+  $ npx vsce publish
   ```
 
 - `git tag` with the new release
