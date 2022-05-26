@@ -3,3 +3,6 @@
 .gitignore
 package-lock.json
 vsc-extension-quickstart.md
+node_modules/**
+*.vsix
+*.zip
