@@ -10,12 +10,12 @@
     // Issue: https://github.com/nonylene/vscode-dark-molokai-theme/issues/2
     //
     // Dark base theme
-    // https://github.com/microsoft/vscode/blob/655fe7546f223493324225836e734b63ce24b38b/extensions/theme-defaults/themes/dark_vs.json
+    // https://github.com/microsoft/vscode/blob/cc86b15a44fe28300180108f4d95cacee98717dc/extensions/theme-defaults/themes/dark_vs.json
     "list.dropBackground": "#383B3D",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
     "input.placeholderForeground": "#A6A6A6",
-    "menu.background": "#252526",
+    "menu.background": "#303031",
     "menu.foreground": "#CCCCCC",
     "statusBarItem.remoteForeground": "#FFF",
     "statusBarItem.remoteBackground": "#16825D",
@@ -23,6 +23,7 @@
     "sideBarSectionHeader.background": "#0000",
     "sideBarSectionHeader.border": "#ccc3",
     "tab.lastPinnedBorder": "#ccc3",
+    "list.activeSelectionIconForeground": "#FFF",
     // molokai dark color theme
     // https://github.com/tomasr/molokai/blob/db8ce13/colors/molokai.vim
     "editor.background": "#1B1D1E",
@@ -35,7 +36,7 @@
     "editor.lineHighlightBackground": "#303030",
     "minimap.selectionHighlight": "#303030",
     // monokai theme
-    // https://github.com/Microsoft/vscode/blob/1e810cafb7461ca077c705499408ca838524c014/extensions/theme-monokai/themes/monokai-color-theme.json
+    // https://github.com/Microsoft/vscode/blob/cc86b15a44fe28300180108f4d95cacee98717dc/extensions/theme-monokai/themes/monokai-color-theme.json
     "list.highlightForeground": "#f8f8f2",
     "editor.selectionHighlightBackground": "#575b6180",
     "editor.wordHighlightBackground": "#4a4a7680",
@@ -396,6 +397,12 @@
       "scope": "markup.italic.markdown",
       "settings": {
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.strikethrough",
+      "settings": {
+        "fontStyle": "strikethrough"
       }
     },
     {
