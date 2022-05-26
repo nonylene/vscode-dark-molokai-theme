@@ -19,5 +19,8 @@
                 "path": "./themes/dark-molokai-color-theme.json"
             }
         ]
+    },
+    "devDependencies": {
+        "vsce": "^2.8.0"
     }
 }

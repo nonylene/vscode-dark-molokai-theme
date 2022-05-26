@@ -1,4 +1,5 @@
 .vscode/**
 .vscode-test/**
 .gitignore
+package-lock.json
 vsc-extension-quickstart.md
