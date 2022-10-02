@@ -2,7 +2,7 @@
   "name": "Dark (molokai)",
   "type": "dark",
   "colors": {
-    // Set `selection.background` to the defaut selection background color (on macOS) explicitly,
+    // Set `selection.background` to the defaut selection background color (on Windows) explicitly,
     // otherwise `editor.selectionbackground` will be used on some input components.
     // "selection.background": "#B3D7FF", // macOS defualt color (Too blight for Windows!)
     "selection.background": "#0078d7", // Windows default color
@@ -10,7 +10,7 @@
     // Issue: https://github.com/nonylene/vscode-dark-molokai-theme/issues/2
     //
     // Dark base theme
-    // https://github.com/microsoft/vscode/blob/cc86b15a44fe28300180108f4d95cacee98717dc/extensions/theme-defaults/themes/dark_vs.json
+    // https://github.com/microsoft/vscode/blob/61f8dee571efac71035000f4c57f1c42ada04e46/extensions/theme-defaults/themes/dark_vs.json
     "list.dropBackground": "#383B3D",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
@@ -36,7 +36,7 @@
     "editor.lineHighlightBackground": "#303030",
     "minimap.selectionHighlight": "#303030",
     // monokai theme
-    // https://github.com/Microsoft/vscode/blob/cc86b15a44fe28300180108f4d95cacee98717dc/extensions/theme-monokai/themes/monokai-color-theme.json
+    // https://github.com/Microsoft/vscode/blob/61f8dee571efac71035000f4c57f1c42ada04e46/extensions/theme-monokai/themes/monokai-color-theme.json
     "list.highlightForeground": "#f8f8f2",
     "editor.selectionHighlightBackground": "#575b6180",
     "editor.wordHighlightBackground": "#4a4a7680",
@@ -87,7 +87,8 @@
     {
       "scope": [
         "meta.embedded",
-        "source.groovy.embedded"
+        "source.groovy.embedded",
+        "string meta.image.inline.markdown"
       ],
       "settings": {
         "foreground": "#F8F8F2"
