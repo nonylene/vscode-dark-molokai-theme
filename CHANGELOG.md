@@ -2,6 +2,9 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.6] - 2023-10-07
+- Merge latest origin themes
+
 ## [1.0.5] - 2022-10-03
 - Merge latest origin themes
 
