@@ -10,13 +10,16 @@
     // Issue: https://github.com/nonylene/vscode-dark-molokai-theme/issues/2
     //
     // Dark base theme
-    // https://github.com/microsoft/vscode/blob/61f8dee571efac71035000f4c57f1c42ada04e46/extensions/theme-defaults/themes/dark_vs.json
+    // https://github.com/microsoft/vscode/blob/95f948717b45f8ee70672092bd93953cb2551744/extensions/theme-defaults/themes/dark_vs.json
+    "checkbox.border": "#6B6B6B",
     "list.dropBackground": "#383B3D",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
     "input.placeholderForeground": "#A6A6A6",
-    "menu.background": "#303031",
+    "menu.background": "#252526",
     "menu.foreground": "#CCCCCC",
+    "menu.separatorBackground": "#454545",
+    "menu.border": "#454545",
     "statusBarItem.remoteForeground": "#FFF",
     "statusBarItem.remoteBackground": "#16825D",
     "ports.iconRunningProcessForeground": "#369432",
@@ -24,6 +27,8 @@
     "sideBarSectionHeader.border": "#ccc3",
     "tab.lastPinnedBorder": "#ccc3",
     "list.activeSelectionIconForeground": "#FFF",
+    "widget.border": "#303031",
+    "actionBar.toggledBackground": "#383a49",
     // molokai dark color theme
     // https://github.com/tomasr/molokai/blob/db8ce13/colors/molokai.vim
     "editor.background": "#1B1D1E",
@@ -36,7 +41,7 @@
     "editor.lineHighlightBackground": "#303030",
     "minimap.selectionHighlight": "#303030",
     // monokai theme
-    // https://github.com/Microsoft/vscode/blob/61f8dee571efac71035000f4c57f1c42ada04e46/extensions/theme-monokai/themes/monokai-color-theme.json
+    // https://github.com/Microsoft/vscode/blob/95f948717b45f8ee70672092bd93953cb2551744/extensions/theme-monokai/themes/monokai-color-theme.json
     "list.highlightForeground": "#f8f8f2",
     "editor.selectionHighlightBackground": "#575b6180",
     "editor.wordHighlightBackground": "#4a4a7680",
@@ -88,7 +93,8 @@
       "scope": [
         "meta.embedded",
         "source.groovy.embedded",
-        "string meta.image.inline.markdown"
+        "string meta.image.inline.markdown",
+        "variable.legacy.builtin.python"
       ],
       "settings": {
         "foreground": "#F8F8F2"
