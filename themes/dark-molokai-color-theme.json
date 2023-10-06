@@ -52,11 +52,8 @@
     "editorIndentGuide.background": "#464741",
     "editorIndentGuide.activeBackground": "#767771",
     "editorLineNumber.foreground": "#90908a",
-    "editorWidget.background": "#1e1f1c",
     "diffEditor.insertedTextBackground": "#4b661680", // middle of #272822 and #a6e22e
     "diffEditor.removedTextBackground": "#90274A70", // middle of #272822 and #f92672
-    "editorHoverWidget.border": "#75715E",
-    "editorSuggestWidget.border": "#75715E",
     "terminal.ansiBlack": "#333333",
     "terminal.ansiRed": "#C4265E", // the bright color with ~75% transparent on the background
     "terminal.ansiGreen": "#86B42B",
