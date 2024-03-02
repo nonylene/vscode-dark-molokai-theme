@@ -10,7 +10,7 @@
     // Issue: https://github.com/nonylene/vscode-dark-molokai-theme/issues/2
     //
     // Dark base theme
-    // https://github.com/microsoft/vscode/blob/95f948717b45f8ee70672092bd93953cb2551744/extensions/theme-defaults/themes/dark_vs.json
+    // https://github.com/microsoft/vscode/blob/f838112f066283bcce562b56766b3816112ee77c/extensions/theme-defaults/themes/dark_vs.json
     "checkbox.border": "#6B6B6B",
     "list.dropBackground": "#383B3D",
     "activityBarBadge.background": "#007acc",
@@ -41,7 +41,7 @@
     "editor.lineHighlightBackground": "#303030",
     "minimap.selectionHighlight": "#303030",
     // monokai theme
-    // https://github.com/Microsoft/vscode/blob/95f948717b45f8ee70672092bd93953cb2551744/extensions/theme-monokai/themes/monokai-color-theme.json
+    // https://github.com/Microsoft/vscode/blob/f838112f066283bcce562b56766b3816112ee77c/extensions/theme-monokai/themes/monokai-color-theme.json
     "list.highlightForeground": "#f8f8f2",
     "editor.selectionHighlightBackground": "#575b6180",
     "editor.wordHighlightBackground": "#4a4a7680",
@@ -49,8 +49,8 @@
     "editorLineNumber.activeForeground": "#c2c2bf",
     "editorCursor.foreground": "#f8f8f0",
     "editorWhitespace.foreground": "#464741",
-    "editorIndentGuide.background": "#464741",
-    "editorIndentGuide.activeBackground": "#767771",
+    "editorIndentGuide.background1": "#464741",
+    "editorIndentGuide.activeBackground1": "#767771",
     "editorLineNumber.foreground": "#90908a",
     "diffEditor.insertedTextBackground": "#4b661680", // middle of #272822 and #a6e22e
     "diffEditor.removedTextBackground": "#90274A70", // middle of #272822 and #f92672
