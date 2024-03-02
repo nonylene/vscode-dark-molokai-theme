@@ -2,6 +2,9 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.8] - 2024-03-03
+- Merge latest origin themes
+
 ## [1.0.7] - 2023-10-07
 - Align some widget colors with the dark theme
 
