@@ -8,7 +8,7 @@ This theme is inspired by [VSCode default dark theme, monokai theme](https://git
 
 ## Install
 
-Please see [Marketplace](https://marketplace.visualstudio.com/items?itemName=nonylene.dark-molokai-theme).
+Please see [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=nonylene.dark-molokai-theme) or [Open VSX Registry](https://open-vsx.org/extension/nonylene/dark-molokai-theme).
 
 ## Development
 
