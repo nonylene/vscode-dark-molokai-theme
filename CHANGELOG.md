@@ -2,6 +2,11 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.9] - 2025-12-18
+- Merge latest origin themes
+- Fix minimap selection visibility
+- Upload to OpenVSX
+
 ## [1.0.8] - 2024-03-03
 - Merge latest origin themes
 
