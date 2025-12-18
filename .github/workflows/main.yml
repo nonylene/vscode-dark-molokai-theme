@@ -21,7 +21,7 @@ jobs:
       - name: Sync version from Git Tag
         run: |
           TAG_VERSION=${GITHUB_REF#refs/tags/v}
-          npm version $TAG_VERSION --no-git-tag-version
+          npm version $TAG_VERSION --no-git-tag-version --allow-same-version
 
       # Publish to Visual Studio Marketplace
       # vsce automatically uses the VSCE_PAT environment variable
