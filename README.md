@@ -22,16 +22,8 @@ Tip: `Add Folder to Workspace...` to debug with existing projects
 
 ### Publish
 
-Doc: <https://code.visualstudio.com/api/working-with-extensions/publishing-extension>
-
 - Update commit hashes that points origin sources in comments
 - Increment version on `package.json`
 - Add changelog to `CHANGELOG.md`
 - Publish with `vsce` command
-
-  ```console
-  $ npm install
-  $ npx vsce publish
-  ```
-
-- `git tag` with the new release
+- `$ git tag vX.X.X` and push to this repository, then GitHub actions will publish to VS marketplace and OpenVSX.

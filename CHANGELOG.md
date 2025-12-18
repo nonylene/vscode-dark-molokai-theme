@@ -2,6 +2,9 @@
 
 Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.10] - 2025-12-18
+- Ignore unused files from artifact
+
 ## [1.0.9] - 2025-12-18
 - Merge latest origin themes
 - Fix minimap selection visibility
