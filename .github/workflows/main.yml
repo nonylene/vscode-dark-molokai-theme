@@ -1,0 +1,38 @@
+name: Publish Extension
+
+on:
+  push:
+    tags:
+      - 'v*' # Trigger on tags starting with 'v'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Extract version from tag (e.g., refs/tags/v1.2.3 -> 1.2.3) and update package.json
+      - name: Sync version from Git Tag
+        run: |
+          TAG_VERSION=${GITHUB_REF#refs/tags/v}
+          npm version $TAG_VERSION --no-git-tag-version
+
+      # Publish to Visual Studio Marketplace
+      # vsce automatically uses the VSCE_PAT environment variable
+      - name: Publish to VS Code Marketplace
+        run: npx vsce publish
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      # Publish to Open VSX Registry
+      # ovsx automatically uses the OVSX_PAT environment variable
+      - name: Publish to Open VSX
+        run: npx ovsx publish
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
